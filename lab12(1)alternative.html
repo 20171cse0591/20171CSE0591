@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+.tooltip {
+  display: inline-block;
+  border-bottom: 1px dashed black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+div{
+width:300px;
+padding:25px;
+}
+a.highlight:hover {
+  background-color:dodgerblue;
+}
+</style>
+</head>
+<body>
+<div>
+<h1>Thalapathy Vijay</h1>
+<p>Samrat of South Indian Cinema</p>
+<div class="tooltip">Thalapathy Vijay
+  <span class="tooltiptext">Thalapathy</span>
+</div>
+<p><a class="highlight" href="https://en.wikipedia.org/wiki/Vijay_(actor)">Thalapathy Vijay</a></p>
+</div>
+</body>
+</html>
